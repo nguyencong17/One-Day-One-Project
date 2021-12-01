@@ -1,0 +1,128 @@
+/*Font*/
+/*Color*/
+html {
+  box-sizing: border-box; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+input,
+textarea,
+select,
+button {
+  outline: none; }
+
+input {
+  line-height: normal; }
+
+label,
+button {
+  cursor: pointer; }
+
+a {
+  text-decoration: none; }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+body {
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  color: #6a727f;
+  max-width: 1920px;
+  margin: 0 auto; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.second-font {
+  font-family: "Raleway", sans-serif; }
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  height: 55px;
+  padding: 0 70px;
+  border-radius: 6px; }
+  .btn-primary {
+    background-color: blue; }
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0; }
+.header-phone {
+  color: #393e46;
+  font-weight: 300; }
+  .header-phone span {
+    font-weight: 600;
+    margin-left: 15px; }
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 0 60px; }
+
+.hero {
+  position: relative;
+  margin-bottom: 200px; }
+  .hero-img {
+    margin-left: auto; }
+  .hero-content {
+    position: absolute;
+    top: 50%; }
+  .hero-caption {
+    font-size: 72px;
+    font-weight: 600; }
+  .hero-heading {
+    font-size: 150px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+  .hero-link {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #6a727f;
+    display: inline-block;
+    font-weight: 600; }
+
+.portfolio {
+  margin-bottom: 200px; }
+  .portfolio-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 90px;
+    margin-bottom: 95px; }
+  .portfolio-image {
+    margin-bottom: 40px; }
+  .portfolio-title {
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 20px; }
+  .portfolio-column {
+    display: flex;
+    flex-direction: column;
+    gap: 85px 0; }
+  .portfolio-link {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); }
+
+/*# sourceMappingURL=app.css.map */

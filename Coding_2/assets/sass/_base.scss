@@ -1,0 +1,33 @@
+body{
+    font-family: $primary-font;
+    font-size: 16px;
+    line-height: 1;
+    color: $gray-light;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.second-font{
+    font-family: $secondary-font;
+}
+.btn{
+    cursor: pointer;
+    outline:none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 55px;
+    padding: 0 70px;
+    border-radius: 6px;
+    &-primary{
+        background-color: $blue-color;
+    }
+}
